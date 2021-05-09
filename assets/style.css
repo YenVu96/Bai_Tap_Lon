@@ -1,0 +1,392 @@
+
+*{
+    margin: auto;
+    padding:auto;
+}
+.full{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.open {
+    display: flex;
+    align-items: center;
+    background: cornsilk;
+    width: 100%
+}
+.open .text{
+    width: 100%;
+    height: 30px;
+}
+/*Slider*/
+
+.slider{
+   position: relative;
+    background: url('../assets/img/slide.jpg') top center / cover no-repeat;
+    padding-top: 45%;
+}
+.slider .text-content{
+    position: absolute;
+    bottom: 190px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.text-content .text-heading{
+    font-weight: 500px;
+    font-size: 26px;
+    text-shadow: 0 0 1px #000;
+}
+
+
+.header {
+    white-space: nowrap;
+    background: #515E7B;
+    display: flex;
+    height: 70px;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+}
+.search-box {
+    position: initial;
+    top: 50%;
+    left: 50%;
+    transform: translate(0px, 0px);
+    background: #636E88;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 27px;
+    width: 160px;
+}
+.search-txt {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.4s;
+    background: none;
+    line-height: 38px;
+    width: 100px;
+}
+a.search {
+    color: #E0E2E7;
+    float: right;
+    border-radius: 56%;
+    background: #636E88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -100px;
+    margin-top: 13px;
+    height: 0px;
+    width: 0px;
+
+}
+a:hover{
+    color: darkgrey;
+}
+.menu-primary {
+    display: flex;
+    align-items: center;
+    /*padding-left: 80px;*/
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+a.menu {
+    font-size: 20px;
+}
+a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.cart {
+    font-size: 20px;
+}
+.signout{
+    font-size: 20px;
+}
+/*Container*/
+
+.img-container {
+    text-align: center;
+    width: 1000px;
+}
+
+.content h2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.content h2:before{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 2px;
+    background:#515E7B;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2px;
+   
+}
+.content h2:after{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 2px;
+    background:#515E7B;
+    position: absolute;
+    top: 50%;
+    right: 0;
+     z-index: -2px;
+}
+
+
+.text-blog {
+    padding: 20px 0;
+    line-height: 30px;
+}
+.info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /*margin-left: 110px;*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Our.Story {
+    background: #f0ede5;
+    height: 500px;
+    font-size: 25px;
+}
+.text-Ourstory .heading{
+    padding-top: 50px;
+}
+.sub-text{
+    text-align: justify;
+}
+.info-content-1 {
+    padding-right: 20px;
+}
+
+
+/*Introduce*/
+
+.img-gioithieu {
+    padding-top: 20px;
+    display: flex;
+}
+
+.content-gt {
+    width: 950px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.content-gt .text{
+    line-height: 20px;
+    padding: 20px 0;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img {
+    margin-right: 10px;
+}
+
+.content {
+    padding-top: 30px;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    height: 82px;
+}
+.info-footer {
+    text-align: center;
+    color: whitesmoke;
+    line-height: 35px;
+    padding: 10px 0;
+    background: #515E7B;
+}
+.info-footer .icon {
+    padding-right: 10px;
+}
+.footer .link {
+    padding: 10px 0;
+}
+.link .link-icon{
+    padding: 0px 5px;
+}
+button.btn {
+    margin-top: 15px;
+}
+p {
+    padding: 5px 0;
+}
+
+.img-container {
+    text-align: center;
+    width: 1000px;
+    padding: 40px;
+}
+
+/* Infor*/
+/*Contactform liên hệ*/
+
+    .contactform {
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+    .input-contactform {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+}
+ 
+.input-submitform {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    /* cursor: pointer; */
+}
+ 
+.input-submitform:hover {
+    background-color: #45a049;
+}
+.contactform {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/*Sản phẩm*/
+.product .blog{
+    padding-bottom: 30px;
+    background: #EAEAEA;
+    margin-bottom: 30px;
+}
+.product button {
+    BACKGROUND: crimson;
+    width: 71px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.test{
+    width: 200px;
+    height: 300px;
+    color: black;
+}
+
+div#notification {
+    background: antiquewhite;
+    width: 300px;
+    position: fixed;
+    right: 0;
+    top: 60%;
+    z-index: 500;
+}
+.alert.alert-success {
+    text-align: center;
+    color: burlywood;
+}
+
+img.product_blog-img {
+    width: 300px;
+    height: 300px;
+}
+.product_list {
+    text-align: center;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.product_blog {
+    display: block;
+    background: #EAEAEA;
+    margin-bottom: 30px;
+}
+h4.product_blog-name {
+    padding: 5px 0;
+    font-family: monospace;
+    font-size: 16px;
+}
+.product_blog-price {
+    padding: 5px 0;
+    font-family: monospace;
+    font-size: 15px;
+}
+.buynow {
+    background: crimson;
+    border: none;
+    width: 71px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* margin-top: 15px; */
+}
+.buynow: hover{
+    co
+}
+
+.product_blog-text {
+    padding: 20px 0;
+    line-height: 30px;
+}
+th {
+    padding-right: 100px;
+    color: brown;
+    padding-bottom: 20px;
+}
+button.update {
+    background: antiquewhite;
+    min-height: 50px;
+    border-style: double;
+    color: white;
+}
+button.btn-continue {
+    background: cadetblue;
+    border-style: double;
+    min-height: 50px;
+    border-color: aliceblue;
+}
+.continue {
+    display: flex;
+    padding-bottom: 40px;
+}
+.cart__total {
+    margin: 20px 0;
+}
+.txt-red{
+    color: red;
+}
